@@ -1,0 +1,12 @@
+model: petsmart-pets-model-0j53y
+destination: webhook-ewtkb
+config:
+  mappings: []
+  contentType: application/json
+  changeMethod: POST
+  rowsPerBatch: 1
+  configVersion: 0
+  autoSyncColumns: true
+schedule:
+  type: manual
+schedulePaused: false
