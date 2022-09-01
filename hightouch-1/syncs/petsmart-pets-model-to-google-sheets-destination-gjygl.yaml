@@ -1,0 +1,12 @@
+model: petsmart-pets-model-0j53y
+destination: google-sheets-destination-6b8hq
+config:
+  mode: mirror
+  mappings: []
+  sheetName: Sheet2
+  configVersion: 0
+  spreadsheetId: 1PwSl_i5OLcSXVT_7CZOlaehgN-YtvWUI4OP25R-fa-M
+  autoSyncColumns: true
+schedule:
+  type: manual
+schedulePaused: false
