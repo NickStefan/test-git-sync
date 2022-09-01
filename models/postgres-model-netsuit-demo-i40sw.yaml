@@ -1,0 +1,5 @@
+name: postgres-model-netsuit-demo
+type: table
+tableName: netsuitedemo.invoices
+isSchema: false
+primaryKey: invoice_number
