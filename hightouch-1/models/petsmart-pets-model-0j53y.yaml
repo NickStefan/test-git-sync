@@ -1,4 +1,4 @@
-name: petsmart-pets-model
+name: petsmart-pets-model-test
 source: postgres-connection
 type: raw_sql
 rawSql: >-
