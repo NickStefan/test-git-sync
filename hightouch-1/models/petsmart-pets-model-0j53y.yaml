@@ -1,0 +1,8 @@
+name: petsmart-pets-model
+source: postgres-connection
+type: raw_sql
+rawSql: >-
+  SELECT id, type FROM petsmart.petsmart_pets WHERE TYPE = ANY(ARRAY['reptile',
+  'fish']) LIMIT 10;
+isSchema: false
+primaryKey: id
