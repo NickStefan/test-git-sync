@@ -3,7 +3,7 @@ destination: google-sheets-destination-ihh91
 config:
   mode: mirror
   mappings:
-    - to: user_id
+    - to: org_id
       from: user_id
       type: standard
   sheetName: Sheet2
