@@ -1,6 +1,6 @@
 name: postgres-test-model
 source: postgres-connection
 type: raw_sql
-rawSql: '  select * from petsmart.petsmart_pets LIMIT 151;'
+rawSql: '  select * from petsmart.petsmart_pets LIMIT 152;'
 isSchema: false
 primaryKey: id
