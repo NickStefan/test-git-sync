@@ -9,4 +9,4 @@ config:
   autoSyncColumns: true
 schedule:
   type: manual
-schedulePaused: true
+schedulePaused: false
