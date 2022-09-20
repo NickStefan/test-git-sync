@@ -1,0 +1,8 @@
+name: google sheet model
+source: google-sheet-source-n2wgb
+type: custom
+customQuery:
+  name: Sheet1
+  type: sheet
+isSchema: false
+primaryKey: user_id
