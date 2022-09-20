@@ -1,5 +1,5 @@
 name: postgres-test-model
 type: raw_sql
-rawSql: '  select * from petsmart.petsmart_pets LIMIT 9;'
+rawSql: '  select * from petsmart.petsmart_pets LIMIT 8;'
 isSchema: false
 primaryKey: id
