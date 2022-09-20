@@ -2,11 +2,14 @@ model: google-sheet-model-lqefc
 destination: google-sheets-destination-ihh91
 config:
   mode: mirror
-  mappings: []
+  mappings:
+    - to: user_id
+      from: user_id
+      type: standard
   sheetName: Sheet2
   configVersion: 0
   spreadsheetId: 1PwSl_i5OLcSXVT_7CZOlaehgN-YtvWUI4OP25R-fa-M
-  autoSyncColumns: true
+  autoSyncColumns: false
 schedule:
   type: manual
 schedulePaused: false
