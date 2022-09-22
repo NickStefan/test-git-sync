@@ -1,0 +1,8 @@
+name: nick-test-sheet-model
+source: nick-test-sheet-source-jjj20
+type: custom
+customQuery:
+  name: Sheet1
+  type: sheet
+isSchema: false
+primaryKey: user_id
