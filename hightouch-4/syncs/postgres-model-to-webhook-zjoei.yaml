@@ -1,0 +1,12 @@
+model: postgres-model-2nfeo
+destination: webhook-pxars
+config:
+  mappings: []
+  contentType: application/json
+  changeMethod: POST
+  rowsPerBatch: 10
+  configVersion: 0
+  autoSyncColumns: true
+schedule:
+  type: manual
+schedulePaused: false
