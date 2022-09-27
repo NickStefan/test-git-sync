@@ -1,6 +1,6 @@
 name: postgres-model
 source: postgres-connection
 type: raw_sql
-rawSql: SELECT * FROM petsmart.petsmart_pets LIMIT 11;
+rawSql: SELECT * FROM petsmart.petsmart_pets LIMIT 9;
 isSchema: false
 primaryKey: id
