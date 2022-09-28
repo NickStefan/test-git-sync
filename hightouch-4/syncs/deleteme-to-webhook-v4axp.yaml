@@ -1,0 +1,12 @@
+model: deleteme-a3fd8
+destination: webhook-pxars
+config:
+  mappings: []
+  contentType: application/json
+  changeMethod: POST
+  rowsPerBatch: 45
+  configVersion: 0
+  autoSyncColumns: true
+schedule:
+  type: manual
+schedulePaused: false
