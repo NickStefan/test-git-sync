@@ -8,5 +8,9 @@ config:
   configVersion: 0
   autoSyncColumns: true
 schedule:
-  type: manual
+  type: interval
+  schedule:
+    interval:
+      unit: minute
+      quantity: 1
 schedulePaused: false
