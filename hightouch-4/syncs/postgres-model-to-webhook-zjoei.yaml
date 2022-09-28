@@ -4,7 +4,7 @@ config:
   mappings: []
   contentType: application/json
   changeMethod: POST
-  rowsPerBatch: 14
+  rowsPerBatch: 15
   configVersion: 0
   autoSyncColumns: true
 schedule:
