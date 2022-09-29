@@ -3,4 +3,4 @@ source: example-b2b-data-i4b4l
 type: table
 tableName: public.users
 isSchema: false
-primaryKey: last_name
+primaryKey: id
