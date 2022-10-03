@@ -1,6 +1,6 @@
 name: deleteme
 source: postgres-connection
 type: raw_sql
-rawSql: SELECT * FROM petsmart.petsmart_pets LIMIT 5;
+rawSql: SELECT * FROM petsmart.petsmart_pets LIMIT 12;
 isSchema: false
 primaryKey: id
