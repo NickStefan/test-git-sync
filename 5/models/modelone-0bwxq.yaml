@@ -1,6 +1,6 @@
 name: modelone
 source: postgres-connection
 type: raw_sql
-rawSql: SELECT * from petsmart.petsmart_pets LIMIT 23;
+rawSql: SELECT * from petsmart.petsmart_pets LIMIT 33;
 isSchema: false
 primaryKey: id
