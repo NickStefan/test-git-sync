@@ -1,0 +1,8 @@
+name: gsheetmodel
+source: google-sheets-5gruz
+type: custom
+customQuery:
+  name: Sheet1
+  type: sheet
+isSchema: false
+primaryKey: user_id
