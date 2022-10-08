@@ -3,8 +3,8 @@ destination: webhook-2zymg
 config:
   mappings: []
   contentType: application/json
-  changeMethod: POST
-  rowsPerBatch: 10
+  changeMethod: PUT
+  rowsPerBatch: 18
   configVersion: 0
   autoSyncColumns: true
 schedule:
