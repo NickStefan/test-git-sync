@@ -1,6 +1,6 @@
 name: test
 source: postgres-connection
 type: raw_sql
-rawSql: '  select * from petsmart.petsmart_pets LIMIT 32;'
+rawSql: '  select * from petsmart.petsmart_pets LIMIT 33;'
 isSchema: false
 primaryKey: id
