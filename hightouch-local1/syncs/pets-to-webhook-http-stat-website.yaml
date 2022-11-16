@@ -1,0 +1,12 @@
+model: pets
+destination: webhook-http-stat-website
+config:
+  mappings: []
+  contentType: application/json
+  changeMethod: PUT
+  rowsPerBatch: 1000
+  configVersion: 0
+  autoSyncColumns: true
+schedule:
+  type: manual
+schedulePaused: false
