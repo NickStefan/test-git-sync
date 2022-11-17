@@ -1,0 +1,6 @@
+name: example-b2b-model-2
+source: example-b2b-data-i4b4l
+type: table
+tableName: public.users
+isSchema: false
+primaryKey: user_id
