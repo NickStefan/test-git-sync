@@ -1,6 +1,6 @@
 name: sqltest
 source: postgres-connection
 type: raw_sql
-rawSql: select 2;
+rawSql: select 3;
 isSchema: false
 primaryKey: '?column?'
