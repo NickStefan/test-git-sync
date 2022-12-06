@@ -1,7 +1,7 @@
 model: nick-test-sheet-model-0ujzh
 destination: nick-test-notion-destination-ifucw
 config:
-  mode: upsert
+  mode: update
   object: database
   mappings:
     - to: documents_uploaded
@@ -12,6 +12,9 @@ config:
       type: standard
     - to: Name
       from: last_name
+      type: standard
+    - to: Tags
+      from: first_name
       type: standard
   databaseId: e8a68f73-8505-41dd-931e-1109c2ac71a2
   configVersion: 0
