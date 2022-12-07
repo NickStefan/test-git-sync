@@ -9,8 +9,5 @@ config:
   spreadsheetId: 1PwSl_i5OLcSXVT_7CZOlaehgN-YtvWUI4OP25R-fa-M
   autoSyncColumns: true
 schedule:
-  type: interval
-  schedule:
-    interval:
-      unit: day
+  type: manual
 schedulePaused: true
