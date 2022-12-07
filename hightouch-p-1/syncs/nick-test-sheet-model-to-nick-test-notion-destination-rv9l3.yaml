@@ -17,4 +17,4 @@ config:
     from: user_id
 schedule:
   type: manual
-schedulePaused: false
+schedulePaused: true
