@@ -4,7 +4,7 @@ type: raw_sql
 rawSql: |-
   SELECT * 
   FROM public.organizations
-  WHERE type = 'Self-Serve'
+  WHERE type = 'Self-Serves'
   AND CAST(total_storage_used_mb AS INT) > 50000
 isSchema: false
 primaryKey: org_id
