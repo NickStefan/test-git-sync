@@ -1,4 +1,4 @@
-name: testmodelcreate
+name: testmodelcreates
 source: example-b2b-data-i4b4l
 type: raw_sql
 rawSql: |-
