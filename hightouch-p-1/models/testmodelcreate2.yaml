@@ -1,0 +1,10 @@
+name: testmodelcreate2
+source: example-b2b-data-i4b4l
+type: raw_sql
+rawSql: |-
+  SELECT * 
+  FROM public.organizations
+  WHERE type = 'Self-Serve'
+  AND CAST(total_storage_used_mb AS INT) > 50000
+isSchema: false
+primaryKey: org_id
