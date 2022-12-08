@@ -1,0 +1,11 @@
+name: testmodelcreate
+source: example-b2b-data-i4b4l
+type: raw_sql
+rawSql: |-
+  SELECT * FROM public.users u
+  JOIN public.organizations o ON u.org_id = o.org_id
+  WHERE u.invite_accepted = 'No'
+  AND u.type = 'Admin'
+  AND o.type = 'Business Tier'
+isSchema: false
+primaryKey: user_id
