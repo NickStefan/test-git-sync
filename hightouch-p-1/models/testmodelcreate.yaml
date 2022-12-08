@@ -5,7 +5,6 @@ rawSql: |-
   SELECT * FROM public.users u
   JOIN public.organizations o ON u.org_id = o.org_id
   WHERE u.invite_accepted = 'No'
-  AND u.type = 'Admin'
   AND o.type = 'Business Tier'
 isSchema: false
 primaryKey: user_id
