@@ -1,6 +1,6 @@
 name: example-b2b-model-name-changed
 source: example-b2b-data-i4b4l
 type: table
-tableName: public.users
+tableName: public.organizations
 isSchema: false
-primaryKey: user_id
+primaryKey: org_id
