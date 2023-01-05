@@ -1,0 +1,6 @@
+name: test model columns
+source: postgres-connection
+type: table
+tableName: petsmart.petsmart_pets
+isSchema: false
+primaryKey: id
