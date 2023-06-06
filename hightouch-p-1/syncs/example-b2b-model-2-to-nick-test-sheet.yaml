@@ -1,0 +1,13 @@
+model: example-b2b-model-2
+destination: nick-test-sheet-4x372
+config:
+  mode: mirror
+  mappings: []
+  sheetName: Sheet1
+  configVersion: 1
+  spreadsheetId: 1PwSl_i5OLcSXVT_7CZOlaehgN-YtvWUI4OP25R-fa-M
+  sheetSelection: select
+  autoSyncColumns: true
+schedule:
+  type: manual
+schedulePaused: false
