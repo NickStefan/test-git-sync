@@ -1,0 +1,32 @@
+# READ ONLY FILE
+# Changes made here will be ignored. Please use the Hightouch dashboard to create and edit sources and destinations.
+
+sources:
+  postgres-connection:
+    name: postgres-connection
+    type: postgres
+  test-trino:
+    name: test-trino
+    type: trino
+  nick-test-sheet-source-jjj20:
+    name: nick-test-sheet-source
+    type: googlesheets
+  'null':
+    name: incomplete-oauth
+    type: googlesheets
+  example-b2b-data-i4b4l:
+    name: example-b2b-data
+    type: sample-data
+destinations:
+  pc-178-salesforce_7:
+    name: Salesforce (sn-123678901)
+    type: salesforce
+  nick-test-slack-destination-5n0dt:
+    name: nick-test-slack-destination
+    type: slack
+  nick-test-notion-destination-ifucw:
+    name: nick-test-notion-destination
+    type: notion
+  nick-test-sheet-4x372:
+    name: nick test sheet
+    type: googlesheets
